@@ -26,7 +26,7 @@ function Login() {
             return handleError('fields are required')
         }
         try{
-            const url="http://localhost:5000/auth/login";
+            const url="https://skill-swap-roan.vercel.app//auth/login";
             const response = await fetch(url ,{
                 method: "POST",
                 headers:{
